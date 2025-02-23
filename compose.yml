@@ -1,0 +1,10 @@
+services:
+  server:
+    build:
+      context: .
+      args:
+        MINECRAFT_VERSION: 1.21.70.24
+    restart: always
+    ports:    
+      - "19132:19132"
+      - "19133:19133"
