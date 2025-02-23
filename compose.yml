@@ -3,9 +3,9 @@ services:
     build:
       context: .
       args:
-        MINECRAFT_VERSION: 1.21.70.24
+        MINECRAFT_VERSION: 1.21.61.01
     restart: always
-    ports:    
+    ports:
       - "19132:19132"
       - "19133:19133"
       - "25565:25565"
